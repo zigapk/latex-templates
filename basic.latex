@@ -1,0 +1,55 @@
+\documentclass[12pt]{article}
+
+\usepackage[slovene]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{romannum}
+\usepackage{nopageno}
+\usepackage{fullpage}
+
+\begin{document}
+
+\section{Kineti"cna energija}
+Zapi"semo \Romannum{2}. Newtonov zakon:
+$$
+F = ma
+$$
+Pospe"sek zapi"semo kot odvod hitrosti po "casu:
+$$
+F = m \frac{dv}{dt}
+$$
+Obe strani integriramo po poti (za izpeljavo ne potrebujemo mej, sicer pa jih po potrebi lahko vstavimo):
+$$
+\int F ds = \int m \frac{dv}{dt} ds
+$$
+Levo stran (integral sile po poti) imenujemo kineti"cna energija $W_k$:
+$$
+W_k = \int m \frac{dv\ ds}{dt}
+$$
+$\frac{ds}{dt}$ zapi"semo kot hitrost. Ostane nam:
+$$
+W_k = \int m\ v\ dv = m\int v\ dv
+$$
+Po integraciji dobimo:
+$$
+W_k = \frac{mv^2}{2}
+$$
+
+\section{Potencialna energija}
+Zapi"semo \Romannum{2}. Newtonov zakon, pospe"sek pa je v na"sem primeru kar gravitacijski pospe"sek $g$:
+$$
+F = mg
+$$
+Integrirali ga bomo po poti, ki pa je v na"sem primeru kar vi"sina, zato jo imenujemo s $h$:
+$$
+\int F dh = \int m\ g\ dh
+$$
+Levo stran (integral sile po vi"sini) imenujemo potencialna energija $W_p$:
+$$
+W_p = \int m\ g\ dh = mg \int dh
+$$
+Integriramo in dobimo:
+$$
+W_p = mgh
+$$
+
+\end{document}
